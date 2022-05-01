@@ -48,21 +48,7 @@ module.exports = {
         apiToken: process.env.CMS_API_TOKEN,
       },
     },
-    {
-      resolve: `gatsby-plugin-prefetch-google-fonts`,
-      options: {
-        fonts: [
-          {
-            family: `Alegreya`,
-            variants: [`400`],
-          },
-          {
-            family: `Lato`,
-            variants: [`300`, `400`],
-          },
-        ],
-      },
-    },
+   
     `gatsby-plugin-offline`,
     {
       resolve: `gatsby-plugin-mailchimp`,
