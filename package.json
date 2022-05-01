@@ -3,7 +3,7 @@
   "private": true,
   "description": "Simple e-commerce training project. JAM Stack: Gatsby.js, DatoCMS and Netlify, Stripe for payments, and some GSAP fun.",
   "version": "0.1.0",
-  "author": "Paweł Trojnacki",
+  "author": "sai1",
   "dependencies": {
     "babel-plugin-styled-components": "^1.11.1",
     "gatsby": "^2.23.12",
@@ -46,10 +46,7 @@
     "clean": "gatsby clean",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/pawel-trojnacki/suntime"
-  },
+ 
   "bugs": {
     "url": "https://github.com/gatsbyjs/gatsby/issues"
   }
