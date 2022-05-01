@@ -42,12 +42,7 @@ module.exports = {
         icon: `src/images/favicon.png`,
       },
     },
-    {
-      resolve: `gatsby-source-datocms`,
-      options: {
-        apiToken: process.env.CMS_API_TOKEN,
-      },
-    },
+   
    
     `gatsby-plugin-offline`,
     {
